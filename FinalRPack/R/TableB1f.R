@@ -1,0 +1,23 @@
+TableB1f=function(){
+  one=TableB1pref(Xf$SMOKCU,3)
+  PACKYRSCU=Xf$PACKYRS[Xf$SMOKCU==2]
+  two=TableB1pref(PACKYRSCU,1)
+  three=TableB1pref(Xf$SMOKEX,3)
+  PACKYRSFO=Xf$PACKYRS[Xf$SMOKCU==1]
+  four=TableB1pref(PACKYRSFO,2)
+  five=TableB1pref(Xf$INACTIVF,3)
+  six=TableB1pref(Xf$RPOLSAT,0)
+  seven=TableB1pref(Xf$SFIBRG,0)
+  eight=TableB1pref(Xf$TC,0)
+  nine=TableB1pref(Xf$HTC,3)
+  ten=TableB1pref(Xf$TT_CHOL,3)
+  eleven=TableB1pref(Xf$M_SBP,0)
+  twelve=TableB1pref(Xf$M_DBP,0)
+  thirt=TableB1pref(Xf$MBP0,3)
+  fourt=TableB1pref(Xf$HBP,3)
+  fift=TableB1pref(Xf$TT_BP,3)
+  sixt=TableB1pref(Xf$BMI,0)
+  sevent=TableB1pref(Xf$ROVERWT,0)
+  eightt=TableB1pref(Xf$ROBESE,0)
+  list(one=one,two=two,three=three,four=four,five=five,six=six,seven=seven,eight=eight,nine=nine,ten=ten,eleven=eleven,twelve=twelve,thirt=thirt,fourt=fourt,fift=fift,sixt=sixt,sevent=sevent,eightt=eightt)
+}

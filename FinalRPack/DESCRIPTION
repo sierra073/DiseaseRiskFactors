@@ -1,0 +1,10 @@
+Package: mmc2bsy
+Version: 0.0-1
+Date: 2013-05-16
+Title: Final Project R Package
+Author: Sierra Costanza, Yun (Albee) Ling, Bingjing Tang
+Maintainer: Sierra Costanza <scostan1@jhu.edu> 
+Depends: knitr, xtable
+Description: See FinalRPack.Rmd file for instruction 
+License: GPL (>=3)
+URL: git://github.com/nhlee/

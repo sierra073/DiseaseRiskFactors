@@ -1,0 +1,83 @@
+%Trends in Risk Factors for Lifestyle-Related Diseases in Geneva, Switzerland (1993-2004) by Socioeconomic Position Groups
+%Populational Epidemiology Unit of the University Hospitals of Geneva
+%Sierra Costanza, Yun (Albee) Ling, Bingjing Tang
+
+```{r,echo=FALSE}
+require(mmc2bsy)
+```
+
+Age Distributions Analysis (not reported)
+=========================================
+```{r,echo=FALSE}
+data(Xm)
+data(Xf)
+AgeTest()
+```
+
+Table 1
+=======
+```{r,echo=FALSE}
+table1(Xm)
+table1(Xf)
+```
+
+Table B.1
+=========
+```{r,echo=FALSE}
+tB1m=TableB1m()
+tB1m
+tB1f=TableB1f()
+tB1f
+```
+
+Tables B.2 and B.3
+==================
+```{r,echo=FALSE}
+tB2B3m=TablesB2B3m()
+tB2B3f=TablesB2B3f()
+```
+
+Figure B.1
+==========
+```{r,echo=FALSE}
+FigB1()
+```
+
+Figure B.2
+==========
+```{r,echo=FALSE}
+FigB2()
+```
+
+Figure B.3
+==========
+```{r,echo=FALSE}
+FigB3()
+```
+
+Figure B.4
+==========
+```{r,echo=FALSE}
+FigB4()
+```
+
+Figure C.1
+==========
+```{r,echo=FALSE}
+FigC1()
+```
+
+Model Selection Tables C.1-C.4
+==============================
+```{r,echo=FALSE}
+Diagnostic()
+```
+
+
+```{r,eval=FALSE,include=FALSE}
+knit('mmc2bsy.Rmd')
+system('pandoc -s mmc2bsy.md -o mmc2bsy.tex')
+system("pdflatex mmc2bsy.tex")
+system("open mmc2bsy.pdf")
+```
+```
